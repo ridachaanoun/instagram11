@@ -11,13 +11,16 @@ body{
     
 }
 main{
-    margin-left: 10vw;
+    margin-left: 15vw;
 }
-
+aside{
+     position: fixed;
+}
 nav{
-    position: fixed;
+    display: flex;
+    justify-content: space-between;
     height: 100vh;
-    width: 41vh;
+    width: 15vw;
 }
 .logo{
     color: rgba(255, 255, 255, 0.711);
@@ -35,14 +38,14 @@ i{
     padding-right: 12px;
 
 }
-nav ul li a{
+nav .nav-list li a{
     display: block;
     padding-inline: 20px;
     font-size: 15px;
  
 }
 
-nav ul{
+nav .nav-list{
     list-style-type: none;
     display: flex;
     flex-direction: column;
@@ -52,15 +55,14 @@ nav ul{
     width: 17px;
     height: 17px;
     border-radius: 100%;
+    margin-right: 10px;
     
 }
 .v-line{
-    position: absolute;
-    left: 220px;
-    top: 0%;
     width: 1px;
     height: 100vh;
-    background-color: rgba(250, 235, 215, 0.323);
+    background-color: rgba(255, 145, 0, 0.323);
+    z-index: 10;
 }
 .and-items{
     margin-top: 40vh;
@@ -92,8 +94,10 @@ header{
     display: flex;
 }
 .infoedit{
+    list-style-type: none;
     display: flex;
     justify-content: space-between;
+    width: 28vw;
 }
 .information{
     display: flex;
@@ -104,7 +108,7 @@ header{
 }
 .line2{
     background-color: rgba(240, 248, 255, 0.572);
-    width: 45.8vw;
+    width: 46.4vw;
     height: 1px;
     margin-top: 30px;
 }
@@ -141,13 +145,13 @@ header{
 }
 .new-and-line{
     display: flex;
-    width: 50%;
+    width: 45.3vw;
     /* background-color: red; */
     justify-content: center;
     align-items: center;
     align-items: flex-start;
     flex-direction: column;
-    height: 150px;
+    height: 170px;
 }
 .newp{
     padding-left: 5px;
@@ -175,17 +179,27 @@ header{
     justify-content: center;
     /* background-color: rgb(255, 255, 255); */
 }
-.callery ul {
-    /* background-color: aqua; */
+.callery .posts {
+    /* background-color: aqua;  */
     list-style: none;
     display: flex;
-    width: 705px;
+    width: 720px;
     flex-wrap: wrap;
     gap: 5px;
     margin-left: 1.5vw;
 }
-.callery ul img{
+.callery .posts img{
     max-width: 231px;
+    max-height: 231;
+}
+.callery .posts li{
+    display: flex;
+    /* background-color: aqua; */
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 17vw;
+    border: 2px rgba(255, 255, 255, 0.265) solid;
 }
 footer{
     display: flex;
@@ -201,7 +215,7 @@ footer{
     width: 63vw;
     margin-top: 30px;
     padding-left: 200px;
-    font-size: 12px;
+    font-size: 13px;
 }
 .Language{
     list-style: none;
@@ -209,6 +223,7 @@ footer{
     margin-top: 30px;
     gap: 25px;
     padding-left: 150px;
+    font-size: 14px;
 }
 .edit{
     background-color: rgba(255, 255, 255, 0.125);
@@ -221,37 +236,32 @@ footer{
     padding: 2px 12px;
 }
 .likess1{
-    position: absolute;
-    top: 65%;
-    left: 39%;
-    mix-blend-mode:screen;
+    background-color: transparent; 
     font-size: 25px;
-    color: rgb(254, 0, 0);
+    color: rgb(255, 255, 255);
 }
 .likess2{
-    position: absolute;
-    top: 65%;
-    left: 55%;
-    mix-blend-mode:screen;
+    background-color: transparent; 
     font-size: 25px;
-    color: rgb(254, 0, 0);
+    color: rgb(255, 255, 255); 
 }
 .likess3{
-    position: absolute;
-    top: 65%;
-    left: 70.5%;
-    mix-blend-mode:screen;
+    background-color: transparent; 
     font-size: 25px;
-    color: rgb(254, 0, 0);
+    color: rgb(255, 255, 255);
 }
 .likess4{
-    position: absolute;
-    top: 100%;
-    left: 39%;
-    mix-blend-mode:screen;
+    /* mix-blend-mode:screen; */
+    background-color: transparent; 
     font-size: 25px;
-    color: rgb(254, 0, 0);
+    color: rgb(255, 255, 255);
 }
 .tolike{
-    visibility: hidden;
+    color: red;
+}
+.aa{
+    background-color: aqua;
+}
+footer span{
+    margin-right: 10px;
 }
