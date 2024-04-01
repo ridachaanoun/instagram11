@@ -15,6 +15,7 @@ main{
 }
 aside{
      position: fixed;
+     border-right: 1px solid rgba(255, 255, 255, 0.232);
 }
 nav{
     display: flex;
@@ -57,12 +58,6 @@ nav .nav-list{
     border-radius: 100%;
     margin-right: 10px;
     
-}
-.v-line{
-    width: 1px;
-    height: 100vh;
-    background-color: rgba(255, 145, 0, 0.323);
-    z-index: 10;
 }
 .and-items{
     margin-top: 40vh;
@@ -170,6 +165,7 @@ header{
     display: flex;
     justify-content: space-between;
     /* background-color: blueviolet; */
+    margin-top: 10px;
     width: 320px;
     margin-left: 170px;
     font-size: 12px;
@@ -238,23 +234,23 @@ footer{
 .likess1{
     background-color: transparent; 
     font-size: 25px;
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.577);
 }
 .likess2{
     background-color: transparent; 
     font-size: 25px;
-    color: rgb(255, 255, 255); 
+    color: rgba(255, 255, 255, 0.577);
 }
 .likess3{
     background-color: transparent; 
     font-size: 25px;
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.577);
 }
 .likess4{
     /* mix-blend-mode:screen; */
     background-color: transparent; 
     font-size: 25px;
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.577);
 }
 .tolike{
     color: red;
