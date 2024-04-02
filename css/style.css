@@ -6,7 +6,7 @@
     color: rgba(255, 255, 255, 0.505);
 }
 body{
-    height: 100vh;
+    /* height: 100vh; */
     font-family: "Encode Sans Expanded", sans-serif;
     
 }
@@ -20,8 +20,8 @@ aside{
 nav{
     display: flex;
     justify-content: space-between;
-    height: 100vh;
     width: 15vw;
+    height: 100vh;
 }
 .logo{
     color: rgba(255, 255, 255, 0.711);
@@ -46,35 +46,41 @@ i{
  
 }
 
-.nav-list{
+.nav-list > div{
     list-style-type: none;
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+.nav-list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    width: 15vw;
+    justify-content: space-between;
+    height: 85%;
+    
 }
 .pimg{
     width: 17px;
     height: 17px;
     border-radius: 100%;
     margin-right: 10px;
-    
 }
 .and-items{
-    margin-top: 40vh;
+    
 }
 header{
     color: aliceblue;
     display: flex;
-
     justify-content: center;
     align-items: center;
     height: 260px;
-  
+
 }
 .imgprofile{
     border-radius: 100%;
     max-width: 140px;
-
 }
 .informationall{
     display: flex;
